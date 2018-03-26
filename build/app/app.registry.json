@@ -7,12 +7,12 @@
   "corePolyfilled": "app.dyz65pwl.js",
   "components": {
     "app-home": {
-      "md": "oaoiker0",
-      "ios": "hqvkviqu"
+      "ios": "hqvkviqu",
+      "md": "oaoiker0"
     },
     "app-profile": {
-      "md": "kncwqwg7",
-      "ios": "rmouwemr"
+      "ios": "rmouwemr",
+      "md": "kncwqwg7"
     },
     "ion-animation-controller": {
       "$": "rdyxqruz"
@@ -22,24 +22,24 @@
       "md": "2lnoj2us"
     },
     "ion-back-button": {
-      "md": "kncwqwg7",
-      "ios": "rmouwemr"
+      "ios": "rmouwemr",
+      "md": "kncwqwg7"
     },
     "ion-button": {
       "ios": "fssniu2l",
       "md": "kzyt6drg"
     },
     "ion-buttons": {
-      "md": "kncwqwg7",
-      "ios": "rmouwemr"
+      "ios": "rmouwemr",
+      "md": "kncwqwg7"
     },
     "ion-card": {
-      "md": "oaoiker0",
-      "ios": "hqvkviqu"
+      "ios": "hqvkviqu",
+      "md": "oaoiker0"
     },
     "ion-content": {
-      "md": "chvgb6fz",
-      "ios": "c5i82deu"
+      "ios": "c5i82deu",
+      "md": "chvgb6fz"
     },
     "ion-cordova-platform": {
       "ios": "vr40alto",
@@ -52,24 +52,24 @@
       "$": "pr3dptns"
     },
     "ion-header": {
-      "md": "chvgb6fz",
-      "ios": "c5i82deu"
+      "ios": "c5i82deu",
+      "md": "chvgb6fz"
     },
     "ion-icon": {
-      "md": "kncwqwg7",
-      "ios": "rmouwemr"
+      "ios": "rmouwemr",
+      "md": "kncwqwg7"
     },
     "ion-input-shims": {
       "ios": "vr40alto",
       "md": "2lnoj2us"
     },
     "ion-item": {
-      "md": "kncwqwg7",
-      "ios": "rmouwemr"
+      "ios": "rmouwemr",
+      "md": "kncwqwg7"
     },
     "ion-label": {
-      "md": "kncwqwg7",
-      "ios": "rmouwemr"
+      "ios": "rmouwemr",
+      "md": "kncwqwg7"
     },
     "ion-nav": {
       "ios": "vr40alto",
@@ -92,8 +92,8 @@
       "md": "2lnoj2us"
     },
     "ion-scroll": {
-      "md": "chvgb6fz",
-      "ios": "c5i82deu"
+      "ios": "c5i82deu",
+      "md": "chvgb6fz"
     },
     "ion-status-tap": {
       "ios": "vr40alto",
@@ -104,24 +104,24 @@
       "md": "2lnoj2us"
     },
     "ion-title": {
-      "md": "chvgb6fz",
-      "ios": "c5i82deu"
+      "ios": "c5i82deu",
+      "md": "chvgb6fz"
     },
     "ion-toast": {
       "ios": "0lpoxc97",
       "md": "krtmiyk4"
     },
     "ion-toast-controller": {
-      "md": "kncwqwg7",
-      "ios": "rmouwemr"
+      "ios": "rmouwemr",
+      "md": "kncwqwg7"
     },
     "ion-toggle": {
-      "md": "kncwqwg7",
-      "ios": "rmouwemr"
+      "ios": "rmouwemr",
+      "md": "kncwqwg7"
     },
     "ion-toolbar": {
-      "md": "chvgb6fz",
-      "ios": "c5i82deu"
+      "ios": "c5i82deu",
+      "md": "chvgb6fz"
     },
     "lazy-img": {
       "$": "dtvzhikb"
@@ -131,8 +131,8 @@
       "md": "2lnoj2us"
     },
     "room-list": {
-      "md": "oaoiker0",
-      "ios": "hqvkviqu"
+      "ios": "hqvkviqu",
+      "md": "oaoiker0"
     }
   }
 }
