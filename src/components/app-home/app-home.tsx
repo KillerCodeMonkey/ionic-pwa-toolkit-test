@@ -1,11 +1,30 @@
 import { Component } from '@stencil/core';
-
+import { Room } from '../room-list/room-list';
 
 @Component({
   tag: 'app-home',
   styleUrl: 'app-home.scss'
 })
 export class AppHome {
+  roomList: Room[] = [];
+
+  constructor() {
+    for (let i = 0; i < 100; i = i + 1) {
+      this.roomList.push({
+        name: `Room - ${i}`,
+        entries: [{
+          patient: {
+            firstname: 'Horst',
+            lastname: 'Horstensen'
+          },
+          appointment: {
+            doctor: 'AW',
+            type: 'asdf'
+          }
+        }]
+      })
+    }
+  }
 
   render() {
     return (
@@ -17,12 +36,7 @@ export class AppHome {
         </ion-header>
 
         <ion-content>
-          <p>
-            Welcome to the Ionic PWA Toolkit.
-            You can use this starter to build entire PWAs all with
-            web components using Stencil and ionic/core! Check out the readme for everything that comes in this starter out of the box and
-            Check out our docs on <a href='https://stenciljs.com'>stenciljs.com</a> to get started.
-          </p>
+          <room-list select={(data) => console.log("room selected", data)} entryClick={(data) => console.log("room Clicked", data)} roomList={this.roomList}></room-list>
 
           <ion-button href={'/profile/stencil'}>
             Profile page

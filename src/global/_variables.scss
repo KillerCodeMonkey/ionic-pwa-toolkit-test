@@ -1,0 +1,120 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/v2/theming/
+$font-path: "../assets/fonts";
+
+@import "../../node_modules/@ionic/core/dist/collection/themes/ionic.globals.scss";
+
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
+
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary: #2c398e,
+  secondary: #33445d,
+  tertiary: #d1e2fc,
+  danger: #f53d3d,
+  positive: #6bc259,
+  info: #b2b2b2,
+  light: #f1f4f6,
+  gray: #adb6bf,
+  dark: #222,
+  white: #ffffff
+);
+
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "../../node_modules/@ionic/core/dist/collection/themes/ionic.theme.default";
+
+$base-spacing: 16px;
+$base-spacing-small: $base-spacing * .5;
+$base-spacing-large: $base-spacing * 1.5;
+
+$font-size-small: $font-size-base * .9;
+$font-size-large: $font-size-base * 1.4;
+
+$img-placeholder-background: color($colors, white);
+
+$modal-inset-height-large: 760px;
+
+$text-color: color($colors, secondary);
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+$searchbar-ios-background-color: color($colors, primary);
+$segment-button-ios-background-color-activated: color($colors, primary);
+$card-ios-margin-bottom: 0;
+$card-ios-margin-left: 0;
+$card-ios-margin-right: 0;
+$card-ios-margin-top: 0;
+
+$item-ios-font-size: $font-size-base;
+$item-ios-body-text-font-size: $font-size-base;
+$list-border-color: color($colors, light);
+
+$button-ios-border-radius: 2px;
+$button-ios-font-size: $font-size-small;
+$button-ios-height: 3.4em;
+
+$toolbar-ios-border-color: color($colors, light);
+
+$item-ios-detail-push-color: #2B3C57;
+
+// App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+$searchbar-md-background-color: color($colors, primary);
+$segment-button-md-text-color-activated: color($colors, primary);
+$segment-button-md-border-color-activated: color($colors, primary);
+$item-md-font-size: $font-size-base;
+$item-wp-body-text-font-size: $font-size-base;
+
+$button-md-box-shadow:  0 2px 2px 0 rgba(0, 0, 0, .1), 0 3px 1px -2px rgba(0, 0, 0, .1), 0 1px 5px 0 rgba(0, 0, 0, .1);
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/v2/ionicons/
+
+// @import "ionic.ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+// @import "roboto";
+// @import "noto-sans";
+
+// Own Variables
+// --------------------------------------------------
+$categories: (
+  long: #FE4C52,
+  middle: #FED035,
+  short: #69BB7B
+);

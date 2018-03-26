@@ -29,6 +29,9 @@ import '@ionic/core';
 import {
   EventEmitter,
 } from '@stencil/core';
+import {
+  Room,
+} from './components/room-list/room-list';
 
 declare global {
   interface HTMLAppHomeElement extends HTMLStencilElement {
@@ -136,6 +139,39 @@ declare global {
   namespace JSXElements {
     export interface MyAppAttributes extends HTMLAttributes {
 
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLRoomListElement extends HTMLStencilElement {
+    'entryClick': Function;
+    'roomList': Room[];
+    'select': Function;
+    'selectMode': boolean;
+  }
+  var HTMLRoomListElement: {
+    prototype: HTMLRoomListElement;
+    new (): HTMLRoomListElement;
+  };
+  interface HTMLElementTagNameMap {
+    'room-list': HTMLRoomListElement;
+  }
+  interface ElementTagNameMap {
+    'room-list': HTMLRoomListElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'room-list': JSXElements.RoomListAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface RoomListAttributes extends HTMLAttributes {
+      'entryClick'?: Function;
+      'roomList'?: Room[];
+      'select'?: Function;
+      'selectMode'?: boolean;
     }
   }
 }
