@@ -11,8 +11,8 @@
       "md": "oaoiker0"
     },
     "app-profile": {
-      "ios": "rmouwemr",
-      "md": "kncwqwg7"
+      "md": "kncwqwg7",
+      "ios": "rmouwemr"
     },
     "ion-animation-controller": {
       "$": "rdyxqruz"
@@ -22,16 +22,16 @@
       "md": "2lnoj2us"
     },
     "ion-back-button": {
-      "ios": "rmouwemr",
-      "md": "kncwqwg7"
+      "md": "kncwqwg7",
+      "ios": "rmouwemr"
     },
     "ion-button": {
       "ios": "fssniu2l",
       "md": "kzyt6drg"
     },
     "ion-buttons": {
-      "ios": "rmouwemr",
-      "md": "kncwqwg7"
+      "md": "kncwqwg7",
+      "ios": "rmouwemr"
     },
     "ion-card": {
       "ios": "hqvkviqu",
@@ -56,20 +56,20 @@
       "md": "chvgb6fz"
     },
     "ion-icon": {
-      "ios": "rmouwemr",
-      "md": "kncwqwg7"
+      "md": "kncwqwg7",
+      "ios": "rmouwemr"
     },
     "ion-input-shims": {
       "ios": "vr40alto",
       "md": "2lnoj2us"
     },
     "ion-item": {
-      "ios": "rmouwemr",
-      "md": "kncwqwg7"
+      "md": "kncwqwg7",
+      "ios": "rmouwemr"
     },
     "ion-label": {
-      "ios": "rmouwemr",
-      "md": "kncwqwg7"
+      "md": "kncwqwg7",
+      "ios": "rmouwemr"
     },
     "ion-nav": {
       "ios": "vr40alto",
@@ -108,16 +108,16 @@
       "md": "chvgb6fz"
     },
     "ion-toast": {
-      "ios": "0lpoxc97",
-      "md": "krtmiyk4"
+      "md": "krtmiyk4",
+      "ios": "0lpoxc97"
     },
     "ion-toast-controller": {
-      "ios": "rmouwemr",
-      "md": "kncwqwg7"
+      "md": "kncwqwg7",
+      "ios": "rmouwemr"
     },
     "ion-toggle": {
-      "ios": "rmouwemr",
-      "md": "kncwqwg7"
+      "md": "kncwqwg7",
+      "ios": "rmouwemr"
     },
     "ion-toolbar": {
       "ios": "c5i82deu",
